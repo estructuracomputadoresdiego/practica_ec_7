@@ -43,9 +43,11 @@ float varianzaF(float desviacion){
 
 }
 
-//Pide 
 int main(int argc, char const *argv[])
 {
+
+	printf("Programa que pide 15 numeros y halla la media, la varianza y la desviacion tipica de ellos\n");
+
 	int vector[TAM];
 
 	for (int i = 0; i < TAM ; ++i)

@@ -36,6 +36,8 @@ int maximo(int vector[TAM]){
 //La funcion main llama a las dos funciones anteriores e imprime por pantalla el resultado de la comparacion de la funcion maximo
 int main(int argc, char const *argv[])
 {
+
+	printf("Programa que recibe 10 numeros y devuleve el maximo de ellos.\n");
 	
 	int vector[TAM];
 
